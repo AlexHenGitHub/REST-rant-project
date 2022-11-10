@@ -5,8 +5,6 @@ const methodOverride = require('method-override')
 
 const app = express()
 
-app.use(express.urlencoded({ extended: true }))
-
 // Express Settings
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jsx')
